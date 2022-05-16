@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.fernando.movieapp.presentation.ui.home.HomeFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_map"
+            app:destination="@id/MapFragment"/>
+
+        <action
+            android:id="@+id/action_home_to_galery"
+            app:destination="@id/GalleryFragment"/>
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.fernando.movieapp.presentation.ui.map.MapFragment"
+        android:label="Map Fragment"
+        tools:layout="@layout/fragment_map">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/GalleryFragment"
+        android:name="com.fernando.movieapp.presentation.ui.gallery.GalleryFragment"
+        android:label="Gallery Fragment"
+        tools:layout="@layout/fragment_gallery">
+
+
+    </fragment>
+
+
+</navigation>

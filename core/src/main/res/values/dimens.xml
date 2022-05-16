@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- region elevation values -->
+    <dimen name="elevation_1">2dp</dimen>
+    <dimen name="elevation_2">6dp</dimen>
+    <dimen name="elevation_3">20dp</dimen>
+    <dimen name="elevation_4">25dp</dimen>
+    <dimen name="elevation_5">40dp</dimen>
+    <!-- endregion -->
+
+    <!-- region spacing system -->
+    <dimen name="spacing_null">0dp</dimen>
+    <dimen name="spacing_base">4dp</dimen>
+    <dimen name="spacing_2">8dp</dimen>
+    <dimen name="spacing_3">12dp</dimen>
+    <dimen name="spacing_4">16dp</dimen>
+    <dimen name="spacing_5">24dp</dimen>
+    <dimen name="spacing_6">32dp</dimen>
+    <dimen name="spacing_7">48dp</dimen>
+    <dimen name="spacing_8">64dp</dimen>
+    <dimen name="spacing_9">96dp</dimen>
+    <dimen name="spacing_10">128dp</dimen>
+    <!-- endregion -->
+</resources>

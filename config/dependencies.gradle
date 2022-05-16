@@ -1,0 +1,34 @@
+ext {
+    androidConfig = [
+            sdk       : 29, // Facebook SDK doesn't support API 30
+            buildTools: "29.0.3",
+            minSdk    : 21,
+            targetSdk : 31
+    ]
+    javaVersion = JavaVersion.VERSION_1_8
+    pagingVersion = "3.1.1"
+    kotlinVersion = '1.6.21'
+    coroutinesVersion = '1.4.2'
+    facebookVersion = '7.1.0'
+    ktxVersion = '1.3.2'
+    fragmentVersion = '1.4.1'
+    materialVersion = '1.2.1'
+    constraintVersion = '2.0.0'
+    lifecycleVersion = '2.4.1'
+    navigationVersion = '2.3.5'
+    firebaseAnalyticsVersion = '18.0.0'
+    firebaseAuthVersion = '20.0.1'
+    firebaseFirestoreVersion = '22.0.0'
+    firebaseCrashlyticsVersion = '17.3.0'
+    firebaseConfigVersion = '20.0.2'
+    firebaseDynamicLinksVersion = '19.1.1'
+    firebaseMessagingVersion = '21.0.0'
+    frescoVersion = '2.2.0'
+    googleApiVersion = '1.31.3'
+    retrofitVersion = '2.9.0'
+    okhttpVersion = '4.9.0'
+    mockitoVersion = '3.3.3'
+    junitVersion = '4.13'
+    espressoVersion = '3.2.0'
+    cucumberVersion = "4.8.4"
+}

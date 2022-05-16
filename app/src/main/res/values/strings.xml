@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">movieApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ubication">Ubicaciones</string>
+    <string name="the_permission_location_is_mandatory">The permission location is Mandatory</string>
+    <string name="location_access">Permitir acceso a la ubicación</string>
+    <string name="upload_images">Cargar Imagenes</string>
+    <string name="images">Images</string>
+
+
+</resources>

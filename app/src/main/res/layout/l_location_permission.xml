@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvRequestMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_5"
+            android:textStyle="bold"
+            android:textColor="@color/secondary"
+            android:text="@string/the_permission_location_is_mandatory"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/simpleDraweeView"
+            android:layout_width="@dimen/spacing_8"
+            android:layout_height="@dimen/spacing_8"
+            android:layout_marginTop="@dimen/spacing_3"
+            android:tint="@color/yellow"
+            app:actualImageResource="@drawable/ic_location"
+            app:layout_constraintEnd_toEndOf="@+id/tvRequestMessage"
+            app:layout_constraintStart_toStartOf="@+id/tvRequestMessage"
+            app:layout_constraintTop_toBottomOf="@+id/tvRequestMessage" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRequestLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_2"
+            android:backgroundTint="@color/secondary"
+            android:text="@string/location_access"
+            android:textColor="#FFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/simpleDraweeView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
