@@ -1,5 +1,3 @@
-# TapIt-Android
-
 [![made-with-kotlin](https://img.shields.io/badge/Made%20with-Kotlin-1f425f.svg)](https://kotlinlang.org/)
 ![Android versions](https://img.shields.io/badge/Android-21%20&#9472;%2030-blue.svg)
 
